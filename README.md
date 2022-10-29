@@ -17,4 +17,4 @@ container_name --> self explanatory
 
 ports --> the thing with the ports, must be indented and with space (btw u can add multiple yea)
 
-volumes --> the mapping mapping shit we did to replicate what nodemon does but with docker images... yea.... OVERENGINEERD
+volumes --> the mapping mapping shit we did to replicate what nodemon does but with docker images... yea.... OVERENGINEERD (btw this time its now relative, just read them again later)
