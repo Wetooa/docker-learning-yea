@@ -25,7 +25,7 @@ app.get("/", (req: Request, res: Response) => {
     },
     {
       id: "5",
-      title: "Light Novel Review: Author's POV",
+      title: "Light Novel Review: Author's POV / Damn Good Show",
     },
   ]);
 });

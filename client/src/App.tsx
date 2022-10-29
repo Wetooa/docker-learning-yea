@@ -9,10 +9,12 @@ function App() {
       .then((data) => setBlogs(data));
   }, []);
 
+  console.log(blogs);
+
   return (
     <div className="App">
       <header className="App-header">
-        <h1>all blogs</h1>
+        <h1 style={{ fontSize: "40px" }}>all blogs</h1>
         {blogs &&
           blogs.map((blog: any) => <div key={blog.id}>{blog.title}</div>)}
       </header>
