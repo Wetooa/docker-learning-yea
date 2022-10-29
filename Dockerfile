@@ -9,6 +9,8 @@ WORKDIR /app
 # volumes to map our local dev env to our docker container so they nodemon yea
 # this is the code bruv --> docker run --name docker-learning-nodemon -p 5000:5000 --rm -v "C:\Users\Wetooa\Documents\Coding Files\Docker Files\docker-learning:/app" -v /app/node_modules docker-learning:nodemon
 
+# docker-compose down --rmi all -v
+
 # to cache package.json so we dont reinstall dependecies and jsut rely on the cache, we copy package.json first and run npm i before copying all the source code (which most likely changed)
 COPY package.json .
 

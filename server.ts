@@ -21,7 +21,11 @@ app.get("/", (req: Request, res: Response) => {
     },
     {
       id: "4",
-      title: "Manga Review: Eminence in Shadow...",
+      title: "Manga Review: Eminence in Shadow",
+    },
+    {
+      id: "5",
+      title: "Light Novel Review: Author's POV",
     },
   ]);
 });
